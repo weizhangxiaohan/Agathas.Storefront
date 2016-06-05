@@ -43,6 +43,8 @@
     <Compile Include="Products\Brand.cs" />
     <Compile Include="Categories\Category.cs" />
     <Compile Include="Products\IProductAttribute.cs" />
+    <Compile Include="Products\IProductRepository.cs" />
+    <Compile Include="Products\IProductTitleRepository.cs" />
     <Compile Include="Products\Product.cs" />
     <Compile Include="Products\ProductColor.cs" />
     <Compile Include="Products\ProductSize.cs" />

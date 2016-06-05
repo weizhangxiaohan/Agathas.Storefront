@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Agathas.Storefront.Infrastructure;
+using Agathas.Storefront.Infrastructure.Querying;
 
 namespace Agathas.Storefront.Infrastructure.Domain
 {
@@ -11,7 +12,7 @@ namespace Agathas.Storefront.Infrastructure.Domain
     {
         T FindBy(TId id);
         IEnumerable<T> FindAll();
-        IEnumerable<T> FindBy(Queryable q);
-        IEnumerable<T> FindBy(Queryable q,int index,int count);
+        IEnumerable<T> FindBy(Query q);
+        IEnumerable<T> FindBy(Query q,int index,int count);
     }
 }

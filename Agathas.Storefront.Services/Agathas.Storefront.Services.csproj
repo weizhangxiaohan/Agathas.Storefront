@@ -42,7 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Messaging\ProductCatalogService\GetProductsByCategoryRequest.cs" />
+    <Compile Include="Messaging\ProductCatalogService\ProductsSortBy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\CategoryView.cs" />
+    <Compile Include="ViewModels\ProductSizeOption.cs" />
+    <Compile Include="ViewModels\ProductSummaryView.cs" />
+    <Compile Include="ViewModels\ProductView.cs" />
+    <Compile Include="ViewModels\Refinement.cs" />
+    <Compile Include="ViewModels\RefinementGroup.cs" />
+    <Compile Include="ViewModels\RefinementGroupings.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Agathas.Storefront.Infrastructure\Agathas.Storefront.Infrastructure.csproj">
