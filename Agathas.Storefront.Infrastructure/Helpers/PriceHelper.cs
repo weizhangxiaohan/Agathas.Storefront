@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Agathas.Storefront.Infrastructure.Helpers
 {
-    public class PriceHelper
+    public static class PriceHelper
     {
         public static string FormatMoney(this decimal price)
         {

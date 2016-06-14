@@ -16,8 +16,9 @@ namespace Agathas.Storefront.Infrastructure.Logging
         public Log4NetAdapter()
         {
             XmlConfigurator.Configure();
-            _log = LogManager
-             .GetLogger(ApplicationSettingsFactory.GetApplicationSettings().LoggerName);
+
+            string loggerName = ApplicationSettingsFactory.GetApplicationSettings().LoggerName;
+            _log = LogManager.GetLogger(loggerName);
         }
 
         public void Log(string message)
